@@ -1,0 +1,22 @@
+[5.029s] Invoking command in '/home/tcr3/ros2_personal/src/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/tcr3/ros2_personal/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/launch_testing_examples build --build-base /home/tcr3/ros2_personal/build/launch_testing_examples/build install --prefix /home/tcr3/ros2_personal/install/launch_testing_examples --record /home/tcr3/ros2_personal/build/launch_testing_examples/install.log --single-version-externally-managed
+[6.613s] running egg_info
+[6.616s] writing ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[6.618s] writing dependency_links to ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[6.619s] writing entry points to ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[6.620s] writing requirements to ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[6.620s] writing top-level names to ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[6.630s] reading manifest file '../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[6.713s] writing manifest file '../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[6.715s] running build
+[6.716s] running build_py
+[6.719s] running install
+[6.721s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.722s]   warnings.warn(
+[6.723s] running install_lib
+[6.731s] running install_data
+[6.734s] running install_egg_info
+[6.741s] removing '/home/tcr3/ros2_personal/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.0-py3.10.egg-info' (and everything under it)
+[6.746s] Copying ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/tcr3/ros2_personal/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.0-py3.10.egg-info
+[6.757s] running install_scripts
+[6.858s] writing list of installed files to '/home/tcr3/ros2_personal/build/launch_testing_examples/install.log'
+[7.019s] Invoked command in '/home/tcr3/ros2_personal/src/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/tcr3/ros2_personal/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/launch_testing_examples build --build-base /home/tcr3/ros2_personal/build/launch_testing_examples/build install --prefix /home/tcr3/ros2_personal/install/launch_testing_examples --record /home/tcr3/ros2_personal/build/launch_testing_examples/install.log --single-version-externally-managed

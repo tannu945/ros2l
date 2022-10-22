@@ -1,0 +1,4 @@
+[0.103s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[1.029s] [ 30%] Built target ping
+[1.048s] [ 60%] Built target pong
+[1.065s] [100%] Built target ping_pong

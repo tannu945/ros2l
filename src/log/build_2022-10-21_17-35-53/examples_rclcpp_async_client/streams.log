@@ -1,0 +1,33 @@
+[0.077s] Invoking command in '/home/tcr3/ros2_personal/src/build/examples_rclcpp_async_client': /usr/bin/cmake /home/tcr3/ros2_personal/src/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/src/install/examples_rclcpp_async_client
+[0.395s] -- The C compiler identification is GNU 11.2.0
+[0.784s] -- The CXX compiler identification is GNU 11.2.0
+[0.815s] -- Detecting C compiler ABI info
+[1.215s] -- Detecting C compiler ABI info - done
+[1.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.239s] -- Detecting C compile features
+[1.241s] -- Detecting C compile features - done
+[1.254s] -- Detecting CXX compiler ABI info
+[1.700s] -- Detecting CXX compiler ABI info - done
+[1.732s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.733s] -- Detecting CXX compile features
+[1.735s] -- Detecting CXX compile features - done
+[1.892s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[1.893s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.893s]   has asked CMake to find a package configuration file provided by
+[1.894s]   "ament_cmake", but CMake did not find one.
+[1.894s] 
+[1.895s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.895s]   any of the following names:
+[1.896s] 
+[1.896s]     ament_cmakeConfig.cmake
+[1.897s]     ament_cmake-config.cmake
+[1.897s] 
+[1.898s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.899s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.899s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.899s]   has been installed.
+[1.900s] 
+[1.900s] [0m
+[1.900s] -- Configuring incomplete, errors occurred!
+[1.901s] See also "/home/tcr3/ros2_personal/src/build/examples_rclcpp_async_client/CMakeFiles/CMakeOutput.log".
+[1.906s] Invoked command in '/home/tcr3/ros2_personal/src/build/examples_rclcpp_async_client' returned '1': /usr/bin/cmake /home/tcr3/ros2_personal/src/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/src/install/examples_rclcpp_async_client

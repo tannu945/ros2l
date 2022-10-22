@@ -1,0 +1,14 @@
+[0.181s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/tcr3/ros2_personal/install/my_package:/home/tcr3/ros2_personal/install/launch_testing_examples:/home/tcr3/ros2_personal/install/examples_rclpy_pointcloud_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_subscriber:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_service:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_client:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client:/home/tcr3/ros2_personal/install/examples_rclpy_guard_conditions:/home/tcr3/ros2_personal/install/examples_rclpy_executors /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_wait_set -- -j4 -l4
+[0.575s] [  8%] Built target wait_set_talker
+[0.610s] [ 16%] Built target listener
+[0.677s] [ 25%] Built target talker
+[0.713s] [ 33%] Built target wait_set_listener
+[0.798s] [ 41%] Built target wait_set
+[0.869s] [ 50%] Built target static_wait_set
+[0.985s] [ 58%] Built target thread_safe_wait_set
+[1.070s] [ 66%] Built target wait_set_topics_and_timer
+[1.081s] [ 75%] Built target wait_set_random_order
+[1.121s] [ 83%] Built target executor_random_order
+[1.236s] [ 91%] Built target wait_set_topics_with_different_rates
+[1.262s] [100%] Built target wait_set_composed
+[2.275s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/tcr3/ros2_personal/install/my_package:/home/tcr3/ros2_personal/install/launch_testing_examples:/home/tcr3/ros2_personal/install/examples_rclpy_pointcloud_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_subscriber:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_service:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_client:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client:/home/tcr3/ros2_personal/install/examples_rclpy_guard_conditions:/home/tcr3/ros2_personal/install/examples_rclpy_executors /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_wait_set -- -j4 -l4

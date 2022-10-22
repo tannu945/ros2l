@@ -1,0 +1,45 @@
+[0.096s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/tcr3/ros2_personal/install/my_package:/home/tcr3/ros2_personal/install/launch_testing_examples:/home/tcr3/ros2_personal/install/examples_rclpy_pointcloud_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_subscriber:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_service:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_client:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client:/home/tcr3/ros2_personal/install/examples_rclpy_guard_conditions:/home/tcr3/ros2_personal/install/examples_rclpy_executors /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_wait_set -- -j4 -l4
+[0.645s] [  8%] Built target talker
+[0.698s] [ 16%] Built target wait_set_talker
+[0.725s] [ 25%] Built target listener
+[0.733s] [ 33%] Built target wait_set_listener
+[1.040s] [ 41%] Built target wait_set
+[1.090s] [ 50%] Built target thread_safe_wait_set
+[1.113s] [ 58%] Built target static_wait_set
+[1.116s] [ 66%] Built target wait_set_topics_and_timer
+[1.371s] [ 75%] Built target wait_set_random_order
+[1.403s] [ 83%] Built target wait_set_composed
+[1.436s] [ 91%] Built target executor_random_order
+[1.458s] [100%] Built target wait_set_topics_with_different_rates
+[5.203s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/tcr3/ros2_personal/install/my_package:/home/tcr3/ros2_personal/install/launch_testing_examples:/home/tcr3/ros2_personal/install/examples_rclpy_pointcloud_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_subscriber:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_service:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_client:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client:/home/tcr3/ros2_personal/install/examples_rclpy_guard_conditions:/home/tcr3/ros2_personal/install/examples_rclpy_executors /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_wait_set -- -j4 -l4
+[6.642s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/tcr3/ros2_personal/install/my_package:/home/tcr3/ros2_personal/install/launch_testing_examples:/home/tcr3/ros2_personal/install/examples_rclpy_pointcloud_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_subscriber:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_service:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_client:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client:/home/tcr3/ros2_personal/install/examples_rclpy_guard_conditions:/home/tcr3/ros2_personal/install/examples_rclpy_executors /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_wait_set
+[6.747s] -- Install configuration: ""
+[6.752s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[6.794s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[6.804s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/libtalker.so
+[6.815s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/liblistener.so
+[6.819s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[6.828s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[6.836s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[6.848s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[6.859s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[6.869s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[6.884s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[6.889s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[6.890s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[6.890s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[6.891s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[6.892s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[6.895s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[6.898s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[6.910s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[6.915s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[6.937s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[6.939s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[6.942s] -- Installing: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[6.944s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[6.948s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[6.956s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[6.958s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[6.960s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[6.965s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/tcr3/ros2_personal/install/my_package:/home/tcr3/ros2_personal/install/launch_testing_examples:/home/tcr3/ros2_personal/install/examples_rclpy_pointcloud_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_subscriber:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_service:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_client:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client:/home/tcr3/ros2_personal/install/examples_rclpy_guard_conditions:/home/tcr3/ros2_personal/install/examples_rclpy_executors /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_wait_set

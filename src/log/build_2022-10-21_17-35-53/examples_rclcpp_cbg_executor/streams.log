@@ -1,0 +1,33 @@
+[0.068s] Invoking command in '/home/tcr3/ros2_personal/src/build/examples_rclcpp_cbg_executor': /usr/bin/cmake /home/tcr3/ros2_personal/src/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/src/install/examples_rclcpp_cbg_executor
+[0.384s] -- The C compiler identification is GNU 11.2.0
+[0.732s] -- The CXX compiler identification is GNU 11.2.0
+[0.769s] -- Detecting C compiler ABI info
+[1.161s] -- Detecting C compiler ABI info - done
+[1.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.204s] -- Detecting C compile features
+[1.205s] -- Detecting C compile features - done
+[1.210s] -- Detecting CXX compiler ABI info
+[1.654s] -- Detecting CXX compiler ABI info - done
+[1.695s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.696s] -- Detecting CXX compile features
+[1.699s] -- Detecting CXX compile features - done
+[1.851s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[1.851s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.852s]   has asked CMake to find a package configuration file provided by
+[1.852s]   "ament_cmake", but CMake did not find one.
+[1.852s] 
+[1.853s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.853s]   any of the following names:
+[1.853s] 
+[1.854s]     ament_cmakeConfig.cmake
+[1.854s]     ament_cmake-config.cmake
+[1.854s] 
+[1.855s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.855s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.856s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.856s]   has been installed.
+[1.857s] 
+[1.857s] [0m
+[1.858s] -- Configuring incomplete, errors occurred!
+[1.858s] See also "/home/tcr3/ros2_personal/src/build/examples_rclcpp_cbg_executor/CMakeFiles/CMakeOutput.log".
+[1.869s] Invoked command in '/home/tcr3/ros2_personal/src/build/examples_rclcpp_cbg_executor' returned '1': /usr/bin/cmake /home/tcr3/ros2_personal/src/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/src/install/examples_rclcpp_cbg_executor

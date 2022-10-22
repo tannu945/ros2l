@@ -1,0 +1,2 @@
+Invoking command in '/home/tcr3/ros2_personal/build/action_tutorials_interfaces': /usr/bin/cmake /home/tcr3/ros2_personal/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action_tutorials_interfaces
+Invoked command in '/home/tcr3/ros2_personal/build/action_tutorials_interfaces' returned '1': /usr/bin/cmake /home/tcr3/ros2_personal/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action_tutorials_interfaces

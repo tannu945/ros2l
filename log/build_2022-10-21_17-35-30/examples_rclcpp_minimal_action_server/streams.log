@@ -1,0 +1,20 @@
+[0.084s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server': /usr/bin/cmake /home/tcr3/ros2_personal/src/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server
+[0.305s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.308s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.309s]   has asked CMake to find a package configuration file provided by
+[0.310s]   "ament_cmake", but CMake did not find one.
+[0.314s] 
+[0.315s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.316s]   any of the following names:
+[0.316s] 
+[0.317s]     ament_cmakeConfig.cmake
+[0.318s]     ament_cmake-config.cmake
+[0.320s] 
+[0.321s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.322s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.324s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.325s]   has been installed.
+[0.326s] 
+[0.327s] [0m
+[0.327s] -- Configuring incomplete, errors occurred!
+[0.328s] See also "/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server/CMakeFiles/CMakeOutput.log".

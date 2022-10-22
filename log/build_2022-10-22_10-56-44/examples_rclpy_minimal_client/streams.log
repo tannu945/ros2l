@@ -1,0 +1,26 @@
+[7.025s] Invoking command in '/home/tcr3/ros2_personal/src/src/examples/rclpy/services/minimal_client': PYTHONPATH=/home/tcr3/ros2_personal/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_client build --build-base /home/tcr3/ros2_personal/build/examples_rclpy_minimal_client/build install --prefix /home/tcr3/ros2_personal/install/examples_rclpy_minimal_client --record /home/tcr3/ros2_personal/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed
+[9.070s] running egg_info
+[9.080s] writing ../../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[9.086s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[9.090s] writing entry points to ../../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[9.092s] writing requirements to ../../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[9.093s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[9.109s] reading manifest file '../../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[9.120s] writing manifest file '../../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[9.123s] running build
+[9.127s] running build_py
+[9.130s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.143s]   warnings.warn(
+[9.147s] running install
+[9.151s] running install_lib
+[9.165s] running install_data
+[9.173s] running install_egg_info
+[9.177s] removing '/home/tcr3/ros2_personal/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client-0.15.0-py3.10.egg-info' (and everything under it)
+[9.185s] Copying ../../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client-0.15.0-py3.10.egg-info
+[9.194s] running install_scripts
+[9.351s] Installing client script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.352s] Installing client_async script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.353s] Installing client_async_callback script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.354s] Installing client_async_member_function script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.357s] writing list of installed files to '/home/tcr3/ros2_personal/build/examples_rclpy_minimal_client/install.log'
+[9.556s] Invoked command in '/home/tcr3/ros2_personal/src/src/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/home/tcr3/ros2_personal/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_client build --build-base /home/tcr3/ros2_personal/build/examples_rclpy_minimal_client/build install --prefix /home/tcr3/ros2_personal/install/examples_rclpy_minimal_client --record /home/tcr3/ros2_personal/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed

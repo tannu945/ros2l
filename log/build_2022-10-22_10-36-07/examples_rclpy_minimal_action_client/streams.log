@@ -1,0 +1,26 @@
+[12.727s] Invoking command in '/home/tcr3/ros2_personal/src/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/tcr3/ros2_personal/build/examples_rclpy_minimal_action_client/build install --prefix /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client --record /home/tcr3/ros2_personal/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed
+[15.950s] running egg_info
+[15.954s] writing ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[16.044s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[16.053s] writing entry points to ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[16.055s] writing requirements to ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[16.057s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[16.068s] reading manifest file '../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[16.155s] writing manifest file '../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[16.508s] running build
+[16.509s] running build_py
+[16.509s] running install
+[16.510s] running install_lib
+[16.510s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[16.511s]   warnings.warn(
+[16.516s] running install_data
+[16.519s] running install_egg_info
+[16.527s] removing '/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.0-py3.10.egg-info' (and everything under it)
+[16.530s] Copying ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.0-py3.10.egg-info
+[17.174s] running install_scripts
+[17.316s] Installing client script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[17.355s] Installing client_asyncio script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[17.362s] Installing client_cancel script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[17.367s] Installing client_not_composable script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[17.369s] writing list of installed files to '/home/tcr3/ros2_personal/build/examples_rclpy_minimal_action_client/install.log'
+[17.521s] Invoked command in '/home/tcr3/ros2_personal/src/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/tcr3/ros2_personal/build/examples_rclpy_minimal_action_client/build install --prefix /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client --record /home/tcr3/ros2_personal/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed

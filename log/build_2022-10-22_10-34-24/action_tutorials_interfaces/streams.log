@@ -1,0 +1,21 @@
+[0.166s] Invoking command in '/home/tcr3/ros2_personal/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tcr3/ros2_personal/install/my_package:/home/tcr3/ros2_personal/install/launch_testing_examples:/home/tcr3/ros2_personal/install/examples_rclpy_pointcloud_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_subscriber:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_service:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_client:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client:/home/tcr3/ros2_personal/install/examples_rclpy_guard_conditions:/home/tcr3/ros2_personal/install/examples_rclpy_executors /usr/bin/cmake /home/tcr3/ros2_personal/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action_tutorials_interfaces
+[0.514s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.515s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.516s]   has asked CMake to find a package configuration file provided by
+[0.517s]   "ament_cmake", but CMake did not find one.
+[0.518s] 
+[0.519s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.520s]   any of the following names:
+[0.521s] 
+[0.522s]     ament_cmakeConfig.cmake
+[0.523s]     ament_cmake-config.cmake
+[0.523s] 
+[0.524s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.526s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.528s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.529s]   has been installed.
+[0.532s] 
+[0.538s] [0m
+[0.539s] -- Configuring incomplete, errors occurred!
+[0.539s] See also "/home/tcr3/ros2_personal/build/action_tutorials_interfaces/CMakeFiles/CMakeOutput.log".
+[0.562s] Invoked command in '/home/tcr3/ros2_personal/build/action_tutorials_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tcr3/ros2_personal/install/my_package:/home/tcr3/ros2_personal/install/launch_testing_examples:/home/tcr3/ros2_personal/install/examples_rclpy_pointcloud_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_subscriber:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_service:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_client:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server:/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_client:/home/tcr3/ros2_personal/install/examples_rclpy_guard_conditions:/home/tcr3/ros2_personal/install/examples_rclpy_executors /usr/bin/cmake /home/tcr3/ros2_personal/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action_tutorials_interfaces

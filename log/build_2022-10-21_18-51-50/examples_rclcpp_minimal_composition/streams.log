@@ -1,0 +1,5 @@
+[0.051s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_composition': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[0.330s] [ 33%] Built target composition_nodes
+[0.442s] [ 55%] Built target composition_publisher
+[0.446s] [ 88%] Built target composition_subscriber
+[0.447s] [100%] Built target composition_composed

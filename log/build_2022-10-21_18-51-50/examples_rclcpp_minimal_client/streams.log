@@ -1,0 +1,3 @@
+[0.052s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client -- -j4 -l4
+[0.365s] [100%] Built target client_main
+[0.413s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client' returned '0': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client -- -j4 -l4

@@ -1,0 +1,21 @@
+[0.104s] Invoking command in '/home/tcr3/ros2_personal/build/action_tutorials_interfaces': /usr/bin/cmake /home/tcr3/ros2_personal/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action_tutorials_interfaces
+[0.649s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.650s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.650s]   has asked CMake to find a package configuration file provided by
+[0.650s]   "ament_cmake", but CMake did not find one.
+[0.652s] 
+[0.652s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.653s]   any of the following names:
+[0.653s] 
+[0.653s]     ament_cmakeConfig.cmake
+[0.654s]     ament_cmake-config.cmake
+[0.654s] 
+[0.654s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.654s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.655s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.655s]   has been installed.
+[0.656s] 
+[0.656s] [0m
+[0.657s] -- Configuring incomplete, errors occurred!
+[0.658s] See also "/home/tcr3/ros2_personal/build/action_tutorials_interfaces/CMakeFiles/CMakeOutput.log".
+[0.661s] Invoked command in '/home/tcr3/ros2_personal/build/action_tutorials_interfaces' returned '1': /usr/bin/cmake /home/tcr3/ros2_personal/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action_tutorials_interfaces

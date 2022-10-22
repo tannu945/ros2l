@@ -1,0 +1,33 @@
+[0.069s] Invoking command in '/home/tcr3/ros2_personal/src/build/examples_rclcpp_minimal_action_client': /usr/bin/cmake /home/tcr3/ros2_personal/src/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/src/install/examples_rclcpp_minimal_action_client
+[0.415s] -- The C compiler identification is GNU 11.2.0
+[0.755s] -- The CXX compiler identification is GNU 11.2.0
+[0.787s] -- Detecting C compiler ABI info
+[1.193s] -- Detecting C compiler ABI info - done
+[1.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.228s] -- Detecting C compile features
+[1.231s] -- Detecting C compile features - done
+[1.244s] -- Detecting CXX compiler ABI info
+[1.700s] -- Detecting CXX compiler ABI info - done
+[1.726s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.727s] -- Detecting CXX compile features
+[1.729s] -- Detecting CXX compile features - done
+[1.917s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[1.918s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.928s]   has asked CMake to find a package configuration file provided by
+[1.928s]   "ament_cmake", but CMake did not find one.
+[1.929s] 
+[1.930s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.930s]   any of the following names:
+[1.931s] 
+[1.931s]     ament_cmakeConfig.cmake
+[1.932s]     ament_cmake-config.cmake
+[1.933s] 
+[1.933s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.934s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.935s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.938s]   has been installed.
+[1.939s] 
+[1.943s] [0m
+[1.944s] -- Configuring incomplete, errors occurred!
+[1.945s] See also "/home/tcr3/ros2_personal/src/build/examples_rclcpp_minimal_action_client/CMakeFiles/CMakeOutput.log".
+[1.949s] Invoked command in '/home/tcr3/ros2_personal/src/build/examples_rclcpp_minimal_action_client' returned '1': /usr/bin/cmake /home/tcr3/ros2_personal/src/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/src/install/examples_rclcpp_minimal_action_client

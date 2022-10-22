@@ -1,0 +1,32 @@
+[0.089s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server': /usr/bin/cmake /home/tcr3/ros2_personal/src/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server
+[0.423s] -- The C compiler identification is GNU 11.2.0
+[0.753s] -- The CXX compiler identification is GNU 11.2.0
+[0.784s] -- Detecting C compiler ABI info
+[1.182s] -- Detecting C compiler ABI info - done
+[1.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.210s] -- Detecting C compile features
+[1.212s] -- Detecting C compile features - done
+[1.227s] -- Detecting CXX compiler ABI info
+[1.689s] -- Detecting CXX compiler ABI info - done
+[1.716s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.717s] -- Detecting CXX compile features
+[1.719s] -- Detecting CXX compile features - done
+[1.913s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[1.914s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.914s]   has asked CMake to find a package configuration file provided by
+[1.915s]   "ament_cmake", but CMake did not find one.
+[1.916s] 
+[1.916s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.917s]   any of the following names:
+[1.917s] 
+[1.918s]     ament_cmakeConfig.cmake
+[1.918s]     ament_cmake-config.cmake
+[1.921s] 
+[1.922s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.922s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.923s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.924s]   has been installed.
+[1.926s] 
+[1.927s] [0m
+[1.928s] -- Configuring incomplete, errors occurred!
+[1.928s] See also "/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server/CMakeFiles/CMakeOutput.log".
