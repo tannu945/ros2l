@@ -1,0 +1,27 @@
+[4.553s] Invoking command in '/home/tcr3/ros2_personal/src/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/tcr3/ros2_personal/build/examples_rclpy_minimal_action_server/build install --prefix /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server --record /home/tcr3/ros2_personal/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[6.203s] running egg_info
+[6.207s] writing ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[6.210s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[6.213s] writing entry points to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[6.216s] writing requirements to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[6.218s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[6.234s] reading manifest file '../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[6.249s] writing manifest file '../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[6.253s] running build
+[6.256s] running build_py
+[6.260s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.270s]   warnings.warn(
+[6.274s] running install
+[6.278s] running install_lib
+[6.281s] running install_data
+[6.284s] running install_egg_info
+[6.290s] removing '/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.0-py3.10.egg-info' (and everything under it)
+[6.292s] Copying ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.0-py3.10.egg-info
+[6.301s] running install_scripts
+[6.444s] Installing server script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[6.446s] Installing server_defer script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[6.448s] Installing server_not_composable script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[6.451s] Installing server_queue_goals script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[6.455s] Installing server_single_goal script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[6.458s] writing list of installed files to '/home/tcr3/ros2_personal/build/examples_rclpy_minimal_action_server/install.log'
+[7.031s] Invoked command in '/home/tcr3/ros2_personal/src/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/tcr3/ros2_personal/build/examples_rclpy_minimal_action_server/build install --prefix /home/tcr3/ros2_personal/install/examples_rclpy_minimal_action_server --record /home/tcr3/ros2_personal/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed

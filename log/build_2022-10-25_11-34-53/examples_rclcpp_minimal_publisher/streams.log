@@ -1,0 +1,7 @@
+[0.214s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[0.929s] [ 16%] Built target publisher_lambda
+[1.150s] [ 33%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[1.550s] [ 50%] Built target publisher_wait_for_all_acked
+[1.719s] [ 66%] Built target publisher_not_composable
+[1.899s] [ 83%] Built target publisher_member_function_with_type_adapter
+[2.078s] [100%] Built target publisher_member_function

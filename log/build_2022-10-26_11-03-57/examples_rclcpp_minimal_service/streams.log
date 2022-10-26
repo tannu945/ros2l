@@ -1,0 +1,22 @@
+[0.050s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_service': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_service -- -j4 -l4
+[0.485s] [100%] Built target service_main
+[0.704s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_service' returned '0': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_service -- -j4 -l4
+[1.072s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_service': /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_service
+[1.164s] -- Install configuration: ""
+[1.180s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[1.192s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[1.199s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[1.201s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[1.201s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[1.202s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[1.205s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[1.232s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[1.233s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[1.234s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[1.236s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[1.238s] -- Installing: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[1.240s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[1.241s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[1.245s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[1.254s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[1.257s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_service' returned '0': /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_service

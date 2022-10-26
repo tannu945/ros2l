@@ -1,0 +1,29 @@
+[0.319s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[1.080s] [ 30%] Built target ping
+[1.470s] [ 70%] Built target ping_pong
+[1.855s] [100%] Built target pong
+[2.181s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[3.299s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor
+[3.412s] -- Install configuration: ""
+[3.413s] -- Execute custom install script
+[3.414s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[3.416s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[3.417s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[3.444s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[3.446s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[3.453s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[3.458s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[3.463s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[3.489s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[3.491s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[3.512s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[3.515s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[3.516s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[3.517s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[3.535s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[3.536s] -- Symlinking: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[3.594s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[3.595s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.597s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[3.600s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[3.603s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml

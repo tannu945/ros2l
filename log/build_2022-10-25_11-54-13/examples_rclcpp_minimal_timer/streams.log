@@ -1,0 +1,24 @@
+[0.191s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_timer -- -j4 -l4
+[0.866s] [ 50%] Built target timer_lambda
+[0.913s] [100%] Built target timer_member_function
+[1.154s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_timer -- -j4 -l4
+[1.723s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_timer
+[1.767s] -- Install configuration: ""
+[1.773s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[1.780s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[1.783s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[1.786s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[1.788s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[1.790s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[1.791s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[1.792s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[1.794s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[1.795s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[1.795s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[1.796s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[1.818s] -- Installing: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[1.821s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[1.822s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[1.822s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[1.826s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[1.940s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_timer

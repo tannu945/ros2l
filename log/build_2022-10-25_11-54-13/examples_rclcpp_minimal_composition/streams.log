@@ -1,0 +1,30 @@
+[0.059s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[0.400s] [ 33%] Built target composition_nodes
+[0.669s] [ 55%] Built target composition_subscriber
+[0.716s] [ 88%] Built target composition_composed
+[0.722s] [100%] Built target composition_publisher
+[0.962s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[1.240s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_composition
+[1.278s] -- Install configuration: ""
+[1.280s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[1.281s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[1.284s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[1.289s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[1.292s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[1.295s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[1.297s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[1.298s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[1.299s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[1.299s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[1.301s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[1.301s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[1.302s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[1.303s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[1.305s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[1.306s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[1.307s] -- Installing: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[1.307s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[1.308s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[1.309s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[1.309s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[1.326s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_composition

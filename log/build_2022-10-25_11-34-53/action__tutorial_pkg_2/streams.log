@@ -1,0 +1,23 @@
+[0.196s] Invoking command in '/home/tcr3/ros2_personal/build/action__tutorial_pkg_2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tcr3/ros2_personal/src/action__tutorial_pkg_2 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action__tutorial_pkg_2
+[1.597s] -- The C compiler identification is GNU 11.2.0
+[2.793s] -- The CXX compiler identification is GNU 11.2.0
+[2.966s] -- Detecting C compiler ABI info
+[3.712s] -- Detecting C compiler ABI info - done
+[3.742s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.744s] -- Detecting C compile features
+[3.759s] -- Detecting C compile features - done
+[3.798s] -- Detecting CXX compiler ABI info
+[4.517s] -- Detecting CXX compiler ABI info - done
+[4.568s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.576s] -- Detecting CXX compile features
+[4.577s] -- Detecting CXX compile features - done
+[4.670s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.050s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[8.412s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.778s] [31mCMake Error at CMakeLists.txt:25 (rosidl_generate_interfaces):
+[9.787s]   Unknown CMake command "rosidl_generate_interfaces".
+[9.797s] 
+[9.799s] -- Configuring incomplete, errors occurred!
+[9.800s] See also "/home/tcr3/ros2_personal/build/action__tutorial_pkg_2/CMakeFiles/CMakeOutput.log".
+[9.802s] [0m
+[10.044s] Invoked command in '/home/tcr3/ros2_personal/build/action__tutorial_pkg_2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tcr3/ros2_personal/src/action__tutorial_pkg_2 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action__tutorial_pkg_2

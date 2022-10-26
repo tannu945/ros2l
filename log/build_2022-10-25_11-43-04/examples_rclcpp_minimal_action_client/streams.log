@@ -1,0 +1,5 @@
+[0.191s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_client -- -j4 -l4
+[0.621s] [ 25%] Built target action_client_member_functions
+[0.776s] [ 50%] Built target action_client_not_composable_with_feedback
+[0.924s] [ 75%] Built target action_client_not_composable_with_cancel
+[1.079s] [100%] Built target action_client_not_composable

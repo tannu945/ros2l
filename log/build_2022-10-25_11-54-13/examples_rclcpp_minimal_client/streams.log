@@ -1,0 +1,22 @@
+[0.071s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client -- -j4 -l4
+[0.438s] [100%] Built target client_main
+[0.500s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client -- -j4 -l4
+[0.804s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client
+[0.894s] -- Install configuration: ""
+[0.896s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[0.898s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[0.900s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[0.902s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[0.903s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[0.905s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[0.906s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[0.908s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[0.914s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[0.915s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[0.917s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[0.918s] -- Installing: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[0.924s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[0.927s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[0.928s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[0.930s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[0.947s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client

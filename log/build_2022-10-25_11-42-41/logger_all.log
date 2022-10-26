@@ -1,0 +1,546 @@
+[4.229s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'src/action_tutorial_pkg_2']
+[4.230s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['src/action_tutorial_pkg_2'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffacae1ea0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffad4b6290>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffad4b6290>>)
+[4.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.534s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tcr3/ros2_personal'
+[4.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.538s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.538s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.675s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.676s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.676s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.677s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.678s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.679s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.680s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.681s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.682s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.683s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.687s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/action__tutorial_pkg_2) by extensions ['ignore', 'ignore_ament_install']
+[4.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/action__tutorial_pkg_2) by extension 'ignore'
+[4.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/action__tutorial_pkg_2) by extension 'ignore_ament_install'
+[4.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/action__tutorial_pkg_2) by extensions ['colcon_pkg']
+[4.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/action__tutorial_pkg_2) by extension 'colcon_pkg'
+[4.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/action__tutorial_pkg_2) by extensions ['colcon_meta']
+[4.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/action__tutorial_pkg_2) by extension 'colcon_meta'
+[4.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/action__tutorial_pkg_2) by extensions ['ros']
+[4.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/action__tutorial_pkg_2) by extension 'ros'
+[4.719s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action__tutorial_pkg_2' with type 'ros.ament_cmake' and name 'action__tutorial_pkg_2'
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[4.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials) by extension 'ignore'
+[4.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials) by extension 'ignore_ament_install'
+[4.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials) by extensions ['colcon_pkg']
+[4.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials) by extension 'colcon_pkg'
+[4.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials) by extensions ['colcon_meta']
+[4.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials) by extension 'colcon_meta'
+[4.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials) by extensions ['ros']
+[4.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials) by extension 'ros'
+[4.733s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_tutorials' with type 'ros.ament_cmake' and name 'action_tutorials'
+[4.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[4.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[4.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[4.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[4.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[4.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[4.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[4.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[4.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[4.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['ignore', 'ignore_ament_install']
+[4.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ignore'
+[4.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ignore_ament_install'
+[4.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['colcon_pkg']
+[4.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'colcon_pkg'
+[4.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['colcon_meta']
+[4.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'colcon_meta'
+[4.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['ros']
+[4.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ros'
+[4.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['cmake', 'python']
+[4.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'cmake'
+[4.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'python'
+[4.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['python_setup_py']
+[4.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'python_setup_py'
+[4.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extensions ['ignore', 'ignore_ament_install']
+[4.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extension 'ignore'
+[4.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extension 'ignore_ament_install'
+[4.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extensions ['colcon_pkg']
+[4.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extension 'colcon_pkg'
+[4.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extensions ['colcon_meta']
+[4.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extension 'colcon_meta'
+[4.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extensions ['ros']
+[4.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extension 'ros'
+[4.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extensions ['cmake', 'python']
+[4.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extension 'cmake'
+[4.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extension 'python'
+[4.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extensions ['python_setup_py']
+[4.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples) by extension 'python_setup_py'
+[4.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extensions ['ignore', 'ignore_ament_install']
+[4.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extension 'ignore'
+[4.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extension 'ignore_ament_install'
+[4.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extensions ['colcon_pkg']
+[4.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extension 'colcon_pkg'
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extensions ['colcon_meta']
+[4.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extension 'colcon_meta'
+[4.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extensions ['ros']
+[4.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extension 'ros'
+[4.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extensions ['cmake', 'python']
+[4.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extension 'cmake'
+[4.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extension 'python'
+[4.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extensions ['python_setup_py']
+[4.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing) by extension 'python_setup_py'
+[4.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing/launch_testing_examples) by extensions ['ignore', 'ignore_ament_install']
+[4.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing/launch_testing_examples) by extension 'ignore'
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing/launch_testing_examples) by extension 'ignore_ament_install'
+[4.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing/launch_testing_examples) by extensions ['colcon_pkg']
+[4.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing/launch_testing_examples) by extension 'colcon_pkg'
+[4.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing/launch_testing_examples) by extensions ['colcon_meta']
+[4.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing/launch_testing_examples) by extension 'colcon_meta'
+[4.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing/launch_testing_examples) by extensions ['ros']
+[4.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/launch_testing/launch_testing_examples) by extension 'ros'
+[4.805s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/launch_testing/launch_testing_examples' with type 'ros.ament_python' and name 'launch_testing_examples'
+[4.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[4.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extension 'ignore'
+[4.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extension 'ignore_ament_install'
+[4.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extensions ['colcon_pkg']
+[4.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extension 'colcon_pkg'
+[4.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extensions ['colcon_meta']
+[4.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extension 'colcon_meta'
+[4.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extensions ['ros']
+[4.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extension 'ros'
+[4.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extensions ['cmake', 'python']
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extension 'cmake'
+[4.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extension 'python'
+[4.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extensions ['python_setup_py']
+[4.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp) by extension 'python_setup_py'
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extensions ['ignore', 'ignore_ament_install']
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extension 'ignore'
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extension 'ignore_ament_install'
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extensions ['colcon_pkg']
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extension 'colcon_pkg'
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extensions ['colcon_meta']
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extension 'colcon_meta'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extensions ['ros']
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extension 'ros'
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extensions ['cmake', 'python']
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extension 'cmake'
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extension 'python'
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extensions ['python_setup_py']
+[4.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions) by extension 'python_setup_py'
+[4.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_client) by extensions ['ignore', 'ignore_ament_install']
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_client) by extension 'ignore'
+[4.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_client) by extension 'ignore_ament_install'
+[4.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_client) by extensions ['colcon_pkg']
+[4.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_client) by extension 'colcon_pkg'
+[4.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_client) by extensions ['colcon_meta']
+[4.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_client) by extension 'colcon_meta'
+[4.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_client) by extensions ['ros']
+[4.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_client) by extension 'ros'
+[4.886s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/actions/minimal_action_client' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_action_client'
+[4.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_server) by extensions ['ignore', 'ignore_ament_install']
+[4.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_server) by extension 'ignore'
+[4.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_server) by extension 'ignore_ament_install'
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_server) by extensions ['colcon_pkg']
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_server) by extension 'colcon_pkg'
+[4.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_server) by extensions ['colcon_meta']
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_server) by extension 'colcon_meta'
+[4.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_server) by extensions ['ros']
+[4.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/actions/minimal_action_server) by extension 'ros'
+[4.912s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/actions/minimal_action_server' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_action_server'
+[4.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extensions ['ignore', 'ignore_ament_install']
+[4.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extension 'ignore'
+[4.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extension 'ignore_ament_install'
+[4.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extensions ['colcon_pkg']
+[4.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extension 'colcon_pkg'
+[4.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extensions ['colcon_meta']
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extension 'colcon_meta'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extensions ['ros']
+[4.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extension 'ros'
+[4.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extensions ['cmake', 'python']
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extension 'cmake'
+[4.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extension 'python'
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extensions ['python_setup_py']
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition) by extension 'python_setup_py'
+[4.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition/minimal_composition) by extensions ['ignore', 'ignore_ament_install']
+[4.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition/minimal_composition) by extension 'ignore'
+[4.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition/minimal_composition) by extension 'ignore_ament_install'
+[4.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition/minimal_composition) by extensions ['colcon_pkg']
+[4.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition/minimal_composition) by extension 'colcon_pkg'
+[4.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition/minimal_composition) by extensions ['colcon_meta']
+[4.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition/minimal_composition) by extension 'colcon_meta'
+[4.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition/minimal_composition) by extensions ['ros']
+[4.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/composition/minimal_composition) by extension 'ros'
+[4.962s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/composition/minimal_composition' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_composition'
+[4.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extensions ['ignore', 'ignore_ament_install']
+[4.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extension 'ignore'
+[4.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extension 'ignore_ament_install'
+[4.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extensions ['colcon_pkg']
+[4.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extension 'colcon_pkg'
+[4.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extensions ['colcon_meta']
+[4.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extension 'colcon_meta'
+[4.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extensions ['ros']
+[4.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extension 'ros'
+[4.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extensions ['cmake', 'python']
+[4.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extension 'cmake'
+[4.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extension 'python'
+[4.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extensions ['python_setup_py']
+[4.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors) by extension 'python_setup_py'
+[4.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/cbg_executor) by extensions ['ignore', 'ignore_ament_install']
+[4.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/cbg_executor) by extension 'ignore'
+[4.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/cbg_executor) by extension 'ignore_ament_install'
+[4.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/cbg_executor) by extensions ['colcon_pkg']
+[4.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/cbg_executor) by extension 'colcon_pkg'
+[4.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/cbg_executor) by extensions ['colcon_meta']
+[4.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/cbg_executor) by extension 'colcon_meta'
+[4.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/cbg_executor) by extensions ['ros']
+[4.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/cbg_executor) by extension 'ros'
+[4.995s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/executors/cbg_executor' with type 'ros.ament_cmake' and name 'examples_rclcpp_cbg_executor'
+[4.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/multithreaded_executor) by extensions ['ignore', 'ignore_ament_install']
+[4.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/multithreaded_executor) by extension 'ignore'
+[5.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/multithreaded_executor) by extension 'ignore_ament_install'
+[5.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/multithreaded_executor) by extensions ['colcon_pkg']
+[5.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/multithreaded_executor) by extension 'colcon_pkg'
+[5.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/multithreaded_executor) by extensions ['colcon_meta']
+[5.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/multithreaded_executor) by extension 'colcon_meta'
+[5.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/multithreaded_executor) by extensions ['ros']
+[5.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/executors/multithreaded_executor) by extension 'ros'
+[5.017s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/executors/multithreaded_executor' with type 'ros.ament_cmake' and name 'examples_rclcpp_multithreaded_executor'
+[5.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extensions ['ignore', 'ignore_ament_install']
+[5.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extension 'ignore'
+[5.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extension 'ignore_ament_install'
+[5.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extensions ['colcon_pkg']
+[5.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extension 'colcon_pkg'
+[5.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extensions ['colcon_meta']
+[5.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extension 'colcon_meta'
+[5.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extensions ['ros']
+[5.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extension 'ros'
+[5.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extensions ['cmake', 'python']
+[5.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extension 'cmake'
+[5.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extension 'python'
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extensions ['python_setup_py']
+[5.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services) by extension 'python_setup_py'
+[5.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/async_client) by extensions ['ignore', 'ignore_ament_install']
+[5.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/async_client) by extension 'ignore'
+[5.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/async_client) by extension 'ignore_ament_install'
+[5.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/async_client) by extensions ['colcon_pkg']
+[5.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/async_client) by extension 'colcon_pkg'
+[5.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/async_client) by extensions ['colcon_meta']
+[5.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/async_client) by extension 'colcon_meta'
+[5.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/async_client) by extensions ['ros']
+[5.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/async_client) by extension 'ros'
+[5.068s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/services/async_client' with type 'ros.ament_cmake' and name 'examples_rclcpp_async_client'
+[5.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_client) by extensions ['ignore', 'ignore_ament_install']
+[5.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_client) by extension 'ignore'
+[5.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_client) by extension 'ignore_ament_install'
+[5.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_client) by extensions ['colcon_pkg']
+[5.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_client) by extension 'colcon_pkg'
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_client) by extensions ['colcon_meta']
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_client) by extension 'colcon_meta'
+[5.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_client) by extensions ['ros']
+[5.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_client) by extension 'ros'
+[5.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/services/minimal_client' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_client'
+[5.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_service) by extensions ['ignore', 'ignore_ament_install']
+[5.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_service) by extension 'ignore'
+[5.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_service) by extension 'ignore_ament_install'
+[5.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_service) by extensions ['colcon_pkg']
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_service) by extension 'colcon_pkg'
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_service) by extensions ['colcon_meta']
+[5.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_service) by extension 'colcon_meta'
+[5.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_service) by extensions ['ros']
+[5.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/services/minimal_service) by extension 'ros'
+[5.094s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/services/minimal_service' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_service'
+[5.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extensions ['ignore', 'ignore_ament_install']
+[5.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extension 'ignore'
+[5.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extension 'ignore_ament_install'
+[5.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extensions ['colcon_pkg']
+[5.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extension 'colcon_pkg'
+[5.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extensions ['colcon_meta']
+[5.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extension 'colcon_meta'
+[5.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extensions ['ros']
+[5.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extension 'ros'
+[5.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extensions ['cmake', 'python']
+[5.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extension 'cmake'
+[5.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extension 'python'
+[5.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extensions ['python_setup_py']
+[5.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers) by extension 'python_setup_py'
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers/minimal_timer) by extensions ['ignore', 'ignore_ament_install']
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers/minimal_timer) by extension 'ignore'
+[5.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers/minimal_timer) by extension 'ignore_ament_install'
+[5.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers/minimal_timer) by extensions ['colcon_pkg']
+[5.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers/minimal_timer) by extension 'colcon_pkg'
+[5.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers/minimal_timer) by extensions ['colcon_meta']
+[5.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers/minimal_timer) by extension 'colcon_meta'
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers/minimal_timer) by extensions ['ros']
+[5.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/timers/minimal_timer) by extension 'ros'
+[5.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/timers/minimal_timer' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_timer'
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extensions ['ignore', 'ignore_ament_install']
+[5.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extension 'ignore'
+[5.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extension 'ignore_ament_install'
+[5.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extensions ['colcon_pkg']
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extension 'colcon_pkg'
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extensions ['colcon_meta']
+[5.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extension 'colcon_meta'
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extensions ['ros']
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extension 'ros'
+[5.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extensions ['cmake', 'python']
+[5.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extension 'cmake'
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extension 'python'
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extensions ['python_setup_py']
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics) by extension 'python_setup_py'
+[5.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_publisher) by extensions ['ignore', 'ignore_ament_install']
+[5.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_publisher) by extension 'ignore'
+[5.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_publisher) by extension 'ignore_ament_install'
+[5.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_publisher) by extensions ['colcon_pkg']
+[5.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_publisher) by extension 'colcon_pkg'
+[5.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_publisher) by extensions ['colcon_meta']
+[5.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_publisher) by extension 'colcon_meta'
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_publisher) by extensions ['ros']
+[5.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_publisher) by extension 'ros'
+[5.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/topics/minimal_publisher' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_publisher'
+[5.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[5.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_subscriber) by extension 'ignore'
+[5.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_subscriber) by extension 'ignore_ament_install'
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_subscriber) by extensions ['colcon_pkg']
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_subscriber) by extension 'colcon_pkg'
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_subscriber) by extensions ['colcon_meta']
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_subscriber) by extension 'colcon_meta'
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_subscriber) by extensions ['ros']
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/topics/minimal_subscriber) by extension 'ros'
+[5.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/topics/minimal_subscriber' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_subscriber'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/wait_set) by extensions ['ignore', 'ignore_ament_install']
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/wait_set) by extension 'ignore'
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/wait_set) by extension 'ignore_ament_install'
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/wait_set) by extensions ['colcon_pkg']
+[5.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/wait_set) by extension 'colcon_pkg'
+[5.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/wait_set) by extensions ['colcon_meta']
+[5.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/wait_set) by extension 'colcon_meta'
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/wait_set) by extensions ['ros']
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclcpp/wait_set) by extension 'ros'
+[5.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclcpp/wait_set' with type 'ros.ament_cmake' and name 'examples_rclcpp_wait_set'
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extensions ['ignore', 'ignore_ament_install']
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extension 'ignore'
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extension 'ignore_ament_install'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extensions ['colcon_pkg']
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extension 'colcon_pkg'
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extensions ['colcon_meta']
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extension 'colcon_meta'
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extensions ['ros']
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extension 'ros'
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extensions ['cmake', 'python']
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extension 'cmake'
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extension 'python'
+[5.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extensions ['python_setup_py']
+[5.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy) by extension 'python_setup_py'
+[5.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extensions ['ignore', 'ignore_ament_install']
+[5.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extension 'ignore'
+[5.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extension 'ignore_ament_install'
+[5.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extensions ['colcon_pkg']
+[5.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extension 'colcon_pkg'
+[5.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extensions ['colcon_meta']
+[5.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extension 'colcon_meta'
+[5.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extensions ['ros']
+[5.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extension 'ros'
+[5.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extensions ['cmake', 'python']
+[5.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extension 'cmake'
+[5.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extension 'python'
+[5.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extensions ['python_setup_py']
+[5.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions) by extension 'python_setup_py'
+[5.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_client) by extensions ['ignore', 'ignore_ament_install']
+[5.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_client) by extension 'ignore'
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_client) by extension 'ignore_ament_install'
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_client) by extensions ['colcon_pkg']
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_client) by extension 'colcon_pkg'
+[5.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_client) by extensions ['colcon_meta']
+[5.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_client) by extension 'colcon_meta'
+[5.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_client) by extensions ['ros']
+[5.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_client) by extension 'ros'
+[5.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclpy/actions/minimal_action_client' with type 'ros.ament_python' and name 'examples_rclpy_minimal_action_client'
+[5.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_server) by extensions ['ignore', 'ignore_ament_install']
+[5.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_server) by extension 'ignore'
+[5.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_server) by extension 'ignore_ament_install'
+[5.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_server) by extensions ['colcon_pkg']
+[5.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_server) by extension 'colcon_pkg'
+[5.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_server) by extensions ['colcon_meta']
+[5.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_server) by extension 'colcon_meta'
+[5.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_server) by extensions ['ros']
+[5.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/actions/minimal_action_server) by extension 'ros'
+[5.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclpy/actions/minimal_action_server' with type 'ros.ament_python' and name 'examples_rclpy_minimal_action_server'
+[5.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/executors) by extensions ['ignore', 'ignore_ament_install']
+[5.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/executors) by extension 'ignore'
+[5.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/executors) by extension 'ignore_ament_install'
+[5.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/executors) by extensions ['colcon_pkg']
+[5.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/executors) by extension 'colcon_pkg'
+[5.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/executors) by extensions ['colcon_meta']
+[5.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/executors) by extension 'colcon_meta'
+[5.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/executors) by extensions ['ros']
+[5.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/executors) by extension 'ros'
+[5.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclpy/executors' with type 'ros.ament_python' and name 'examples_rclpy_executors'
+[5.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/guard_conditions) by extensions ['ignore', 'ignore_ament_install']
+[5.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/guard_conditions) by extension 'ignore'
+[5.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/guard_conditions) by extension 'ignore_ament_install'
+[5.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/guard_conditions) by extensions ['colcon_pkg']
+[5.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/guard_conditions) by extension 'colcon_pkg'
+[5.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/guard_conditions) by extensions ['colcon_meta']
+[5.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/guard_conditions) by extension 'colcon_meta'
+[5.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/guard_conditions) by extensions ['ros']
+[5.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/guard_conditions) by extension 'ros'
+[5.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclpy/guard_conditions' with type 'ros.ament_python' and name 'examples_rclpy_guard_conditions'
+[5.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extensions ['ignore', 'ignore_ament_install']
+[5.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extension 'ignore'
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extension 'ignore_ament_install'
+[5.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extensions ['colcon_pkg']
+[5.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extension 'colcon_pkg'
+[5.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extensions ['colcon_meta']
+[5.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extension 'colcon_meta'
+[5.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extensions ['ros']
+[5.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extension 'ros'
+[5.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extensions ['cmake', 'python']
+[5.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extension 'cmake'
+[5.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extension 'python'
+[5.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extensions ['python_setup_py']
+[5.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services) by extension 'python_setup_py'
+[5.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_client) by extensions ['ignore', 'ignore_ament_install']
+[5.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_client) by extension 'ignore'
+[5.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_client) by extension 'ignore_ament_install'
+[5.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_client) by extensions ['colcon_pkg']
+[5.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_client) by extension 'colcon_pkg'
+[5.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_client) by extensions ['colcon_meta']
+[5.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_client) by extension 'colcon_meta'
+[5.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_client) by extensions ['ros']
+[5.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_client) by extension 'ros'
+[5.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclpy/services/minimal_client' with type 'ros.ament_python' and name 'examples_rclpy_minimal_client'
+[5.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_service) by extensions ['ignore', 'ignore_ament_install']
+[5.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_service) by extension 'ignore'
+[5.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_service) by extension 'ignore_ament_install'
+[5.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_service) by extensions ['colcon_pkg']
+[5.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_service) by extension 'colcon_pkg'
+[5.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_service) by extensions ['colcon_meta']
+[5.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_service) by extension 'colcon_meta'
+[5.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_service) by extensions ['ros']
+[5.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/services/minimal_service) by extension 'ros'
+[5.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclpy/services/minimal_service' with type 'ros.ament_python' and name 'examples_rclpy_minimal_service'
+[5.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extensions ['ignore', 'ignore_ament_install']
+[5.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extension 'ignore'
+[5.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extension 'ignore_ament_install'
+[5.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extensions ['colcon_pkg']
+[5.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extension 'colcon_pkg'
+[5.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extensions ['colcon_meta']
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extension 'colcon_meta'
+[5.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extensions ['ros']
+[5.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extension 'ros'
+[5.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extensions ['cmake', 'python']
+[5.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extension 'cmake'
+[5.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extension 'python'
+[5.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extensions ['python_setup_py']
+[5.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics) by extension 'python_setup_py'
+[5.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_publisher) by extensions ['ignore', 'ignore_ament_install']
+[5.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_publisher) by extension 'ignore'
+[5.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_publisher) by extension 'ignore_ament_install'
+[5.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_publisher) by extensions ['colcon_pkg']
+[5.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_publisher) by extension 'colcon_pkg'
+[5.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_publisher) by extensions ['colcon_meta']
+[5.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_publisher) by extension 'colcon_meta'
+[5.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_publisher) by extensions ['ros']
+[5.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_publisher) by extension 'ros'
+[5.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclpy/topics/minimal_publisher' with type 'ros.ament_python' and name 'examples_rclpy_minimal_publisher'
+[5.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[5.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_subscriber) by extension 'ignore'
+[5.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_subscriber) by extension 'ignore_ament_install'
+[5.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_subscriber) by extensions ['colcon_pkg']
+[5.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_subscriber) by extension 'colcon_pkg'
+[5.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_subscriber) by extensions ['colcon_meta']
+[5.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_subscriber) by extension 'colcon_meta'
+[5.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_subscriber) by extensions ['ros']
+[5.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/minimal_subscriber) by extension 'ros'
+[5.387s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclpy/topics/minimal_subscriber' with type 'ros.ament_python' and name 'examples_rclpy_minimal_subscriber'
+[5.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/pointcloud_publisher) by extensions ['ignore', 'ignore_ament_install']
+[5.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/pointcloud_publisher) by extension 'ignore'
+[5.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/pointcloud_publisher) by extension 'ignore_ament_install'
+[5.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/pointcloud_publisher) by extensions ['colcon_pkg']
+[5.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/pointcloud_publisher) by extension 'colcon_pkg'
+[5.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/pointcloud_publisher) by extensions ['colcon_meta']
+[5.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/pointcloud_publisher) by extension 'colcon_meta'
+[5.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/pointcloud_publisher) by extensions ['ros']
+[5.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/examples/rclpy/topics/pointcloud_publisher) by extension 'ros'
+[5.418s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/examples/rclpy/topics/pointcloud_publisher' with type 'ros.ament_python' and name 'examples_rclpy_pointcloud_publisher'
+[5.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.460s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'src/action_tutorial_pkg_2' in --packages-select
+[5.721s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'action__tutorial_pkg_2' in 'src/action__tutorial_pkg_2'
+[5.722s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'action_tutorials' in 'src/action_tutorials'
+[5.730s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_async_client' in 'src/src/examples/rclcpp/services/async_client'
+[5.732s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_cbg_executor' in 'src/src/examples/rclcpp/executors/cbg_executor'
+[5.732s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_minimal_action_client' in 'src/src/examples/rclcpp/actions/minimal_action_client'
+[5.733s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_minimal_action_server' in 'src/src/examples/rclcpp/actions/minimal_action_server'
+[5.734s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_minimal_client' in 'src/src/examples/rclcpp/services/minimal_client'
+[5.738s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_minimal_composition' in 'src/src/examples/rclcpp/composition/minimal_composition'
+[5.739s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_minimal_publisher' in 'src/src/examples/rclcpp/topics/minimal_publisher'
+[5.742s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_minimal_service' in 'src/src/examples/rclcpp/services/minimal_service'
+[5.743s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_minimal_subscriber' in 'src/src/examples/rclcpp/topics/minimal_subscriber'
+[5.746s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_minimal_timer' in 'src/src/examples/rclcpp/timers/minimal_timer'
+[5.746s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_multithreaded_executor' in 'src/src/examples/rclcpp/executors/multithreaded_executor'
+[5.750s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclcpp_wait_set' in 'src/src/examples/rclcpp/wait_set'
+[5.751s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclpy_executors' in 'src/src/examples/rclpy/executors'
+[5.767s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclpy_guard_conditions' in 'src/src/examples/rclpy/guard_conditions'
+[5.767s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclpy_minimal_action_client' in 'src/src/examples/rclpy/actions/minimal_action_client'
+[5.768s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclpy_minimal_action_server' in 'src/src/examples/rclpy/actions/minimal_action_server'
+[5.768s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclpy_minimal_client' in 'src/src/examples/rclpy/services/minimal_client'
+[5.769s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclpy_minimal_publisher' in 'src/src/examples/rclpy/topics/minimal_publisher'
+[5.769s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclpy_minimal_service' in 'src/src/examples/rclpy/services/minimal_service'
+[5.769s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclpy_minimal_subscriber' in 'src/src/examples/rclpy/topics/minimal_subscriber'
+[5.774s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'examples_rclpy_pointcloud_publisher' in 'src/src/examples/rclpy/topics/pointcloud_publisher'
+[5.774s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'launch_testing_examples' in 'src/src/examples/launch_testing/launch_testing_examples'
+[5.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.961s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 269 installed packages in /opt/ros/humble
+[6.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.905s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.948s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.951s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.952s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.954s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.955s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.042s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.370s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.473s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tcr3/ros2_personal/install/local_setup.ps1'
+[7.507s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tcr3/ros2_personal/install/_local_setup_util_ps1.py'
+[7.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tcr3/ros2_personal/install/setup.ps1'
+[7.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tcr3/ros2_personal/install/local_setup.sh'
+[7.580s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tcr3/ros2_personal/install/_local_setup_util_sh.py'
+[7.596s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tcr3/ros2_personal/install/setup.sh'
+[7.655s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tcr3/ros2_personal/install/local_setup.bash'
+[7.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tcr3/ros2_personal/install/setup.bash'
+[7.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tcr3/ros2_personal/install/local_setup.zsh'
+[7.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tcr3/ros2_personal/install/setup.zsh'

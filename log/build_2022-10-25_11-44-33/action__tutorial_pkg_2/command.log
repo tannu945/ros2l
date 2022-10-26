@@ -1,0 +1,2 @@
+Invoking command in '/home/tcr3/ros2_personal/build/action__tutorial_pkg_2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tcr3/ros2_personal/src/action__tutorial_pkg_2 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action__tutorial_pkg_2
+Invoked command in '/home/tcr3/ros2_personal/build/action__tutorial_pkg_2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tcr3/ros2_personal/src/action__tutorial_pkg_2 -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action__tutorial_pkg_2

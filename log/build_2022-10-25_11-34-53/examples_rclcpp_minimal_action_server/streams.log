@@ -1,0 +1,25 @@
+[0.086s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server -- -j4 -l4
+[0.771s] [ 50%] Built target action_server_member_functions
+[1.023s] [100%] Built target action_server_not_composable
+[1.129s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server -- -j4 -l4
+[1.472s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server
+[1.576s] -- Install configuration: ""
+[1.580s] -- Execute custom install script
+[1.588s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[1.594s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[1.595s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[1.616s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[1.617s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[1.618s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[1.623s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[1.626s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[1.631s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[1.637s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[1.640s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[1.644s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[1.652s] -- Symlinking: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[1.727s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[1.732s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[1.740s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[1.811s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[1.812s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_action_server

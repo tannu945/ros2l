@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_2_tutorials/action/CountUntil.action
+// generated code does not contain a copyright notice
+
+
+module action_2_tutorials {
+  module action {
+    @verbatim (language="comment", text=
+      "goal         ")
+    struct CountUntil_Goal {
+      int64 max_number;
+
+      double wait_duration;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct CountUntil_Result {
+      int64 count;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct CountUntil_Feedback {
+      double percentage;
+    };
+  };
+};

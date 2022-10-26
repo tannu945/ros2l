@@ -1,0 +1,4 @@
+Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_wait_set': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_wait_set -- -j4 -l4
+Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_wait_set' returned '0': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_wait_set -- -j4 -l4
+Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_wait_set': /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_wait_set
+Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_wait_set' returned '0': /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_wait_set

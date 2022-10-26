@@ -1,0 +1,22 @@
+[0.100s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client -- -j4 -l4
+[0.385s] [100%] Built target client_main
+[0.439s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client' returned '0': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client -- -j4 -l4
+[0.852s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client': /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client
+[0.917s] -- Install configuration: ""
+[0.918s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[0.921s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[0.921s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[0.922s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[0.923s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[0.924s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[0.924s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[0.925s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[0.926s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[0.927s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[0.928s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[0.928s] -- Installing: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[0.932s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[0.933s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[0.934s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[0.935s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[0.972s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client' returned '0': /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_client

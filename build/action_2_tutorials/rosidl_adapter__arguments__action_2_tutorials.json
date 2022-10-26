@@ -1,0 +1,6 @@
+{
+  "package_name": "action_2_tutorials",
+  "non_idl_tuples": [
+    "/home/tcr3/ros2_personal/src/action_2_tutorials:action/CountUntil.action"
+  ]
+}

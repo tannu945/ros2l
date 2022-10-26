@@ -1,0 +1,25 @@
+[6.702s] Invoking command in '/home/tcr3/ros2_personal/src/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/tcr3/ros2_personal/build/examples_rclpy_minimal_publisher/build install --prefix /home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher --record /home/tcr3/ros2_personal/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[9.361s] running egg_info
+[9.365s] writing ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[9.536s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[9.545s] writing entry points to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[9.545s] writing requirements to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[9.546s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[9.562s] reading manifest file '../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[9.615s] writing manifest file '../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[9.617s] running build
+[9.618s] running build_py
+[9.622s] running install
+[9.623s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.625s]   warnings.warn(
+[9.628s] running install_lib
+[9.652s] running install_data
+[9.664s] running install_egg_info
+[9.680s] removing '/home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.0-py3.10.egg-info' (and everything under it)
+[9.686s] Copying ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.0-py3.10.egg-info
+[9.715s] running install_scripts
+[9.970s] Installing publisher_local_function script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[9.972s] Installing publisher_member_function script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[9.973s] Installing publisher_old_school script to /home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[9.987s] writing list of installed files to '/home/tcr3/ros2_personal/build/examples_rclpy_minimal_publisher/install.log'
+[10.207s] Invoked command in '/home/tcr3/ros2_personal/src/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/tcr3/ros2_personal/build/examples_rclpy_minimal_publisher/build install --prefix /home/tcr3/ros2_personal/install/examples_rclpy_minimal_publisher --record /home/tcr3/ros2_personal/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

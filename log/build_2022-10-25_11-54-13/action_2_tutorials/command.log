@@ -1,0 +1,6 @@
+Invoking command in '/home/tcr3/ros2_personal/build/action_2_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tcr3/ros2_personal/src/action_2_tutorials -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action_2_tutorials
+Invoked command in '/home/tcr3/ros2_personal/build/action_2_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tcr3/ros2_personal/src/action_2_tutorials -DCMAKE_INSTALL_PREFIX=/home/tcr3/ros2_personal/install/action_2_tutorials
+Invoking command in '/home/tcr3/ros2_personal/build/action_2_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/action_2_tutorials -- -j4 -l4
+Invoked command in '/home/tcr3/ros2_personal/build/action_2_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/action_2_tutorials -- -j4 -l4
+Invoking command in '/home/tcr3/ros2_personal/build/action_2_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/action_2_tutorials
+Invoked command in '/home/tcr3/ros2_personal/build/action_2_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/action_2_tutorials

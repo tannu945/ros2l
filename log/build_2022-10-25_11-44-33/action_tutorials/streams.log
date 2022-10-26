@@ -1,0 +1,145 @@
+[0.133s] Invoking command in '/home/tcr3/ros2_personal/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/action_tutorials -- -j4 -l4
+[0.484s] [  9%] Built target action_tutorials__rosidl_generator_c
+[0.538s] [ 12%] Built target action_tutorials__cpp
+[0.805s] [ 22%] Built target action_tutorials__rosidl_typesupport_fastrtps_c
+[0.852s] [ 32%] Built target action_tutorials__rosidl_typesupport_c
+[0.886s] [ 32%] Built target ament_cmake_python_copy_action_tutorials
+[0.913s] [ 41%] Built target action_tutorials__rosidl_typesupport_introspection_c
+[1.057s] [ 51%] Built target action_tutorials__rosidl_typesupport_introspection_cpp
+[1.117s] [ 61%] Built target action_tutorials__rosidl_typesupport_cpp
+[1.131s] [ 70%] Built target action_tutorials__rosidl_typesupport_fastrtps_cpp
+[1.327s] [ 70%] Built target action_tutorials
+[1.707s] [ 74%] Built target action_tutorials__py
+[3.708s] running egg_info
+[3.712s] writing action_tutorials.egg-info/PKG-INFO
+[3.713s] writing dependency_links to action_tutorials.egg-info/dependency_links.txt
+[3.715s] writing top-level names to action_tutorials.egg-info/top_level.txt
+[3.731s] reading manifest file 'action_tutorials.egg-info/SOURCES.txt'
+[3.735s] writing manifest file 'action_tutorials.egg-info/SOURCES.txt'
+[3.913s] [ 74%] Built target ament_cmake_python_build_action_tutorials_egg
+[4.035s] [ 80%] Built target action_tutorials__rosidl_generator_py
+[4.143s] [ 87%] Built target action_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[4.387s] [ 93%] Built target action_tutorials__rosidl_typesupport_c__pyext
+[4.662s] [100%] Built target action_tutorials__rosidl_typesupport_introspection_c__pyext
+[4.806s] Invoked command in '/home/tcr3/ros2_personal/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/action_tutorials -- -j4 -l4
+[6.031s] Invoking command in '/home/tcr3/ros2_personal/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/action_tutorials
+[6.060s] -- Install configuration: ""
+[6.062s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/ament_index/resource_index/rosidl_interfaces/action_tutorials
+[6.102s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials
+[6.103s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/msg
+[6.114s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/msg/rosidl_generator_c__visibility_control.h
+[6.121s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action
+[6.122s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/fibonacci.h
+[6.123s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail
+[6.123s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__struct.h
+[6.126s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__type_support.h
+[6.126s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__functions.h
+[6.127s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__functions.c
+[6.128s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/environment/library_path.sh
+[6.128s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/environment/library_path.dsv
+[6.130s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/lib/libaction_tutorials__rosidl_generator_c.so
+[6.131s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials
+[6.143s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/msg
+[6.144s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.144s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action
+[6.145s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail
+[6.145s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[6.146s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_c.so
+[6.146s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials
+[6.147s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/msg
+[6.147s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.148s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action
+[6.148s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail
+[6.149s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[6.149s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__type_support.c
+[6.150s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_c.so
+[6.151s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_c.so
+[6.152s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials
+[6.152s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action
+[6.156s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/fibonacci.hpp
+[6.159s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail
+[6.160s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__builder.hpp
+[6.161s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__traits.hpp
+[6.164s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__struct.hpp
+[6.165s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials
+[6.166s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/msg
+[6.166s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.167s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action
+[6.168s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail
+[6.168s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[6.170s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/dds_fastrtps
+[6.171s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_cpp.so
+[6.172s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials
+[6.172s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action
+[6.174s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail
+[6.175s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[6.176s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/include/action_tutorials/action_tutorials/action/detail/fibonacci__type_support.cpp
+[6.176s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_cpp.so
+[6.177s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_cpp.so
+[6.178s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/environment/pythonpath.sh
+[6.179s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/environment/pythonpath.dsv
+[6.179s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials-0.0.0-py3.10.egg-info
+[6.186s] -- Installing: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials-0.0.0-py3.10.egg-info/PKG-INFO
+[6.186s] -- Installing: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.187s] -- Installing: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.190s] -- Installing: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials-0.0.0-py3.10.egg-info/top_level.txt
+[6.191s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials
+[6.192s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.192s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/_action_tutorials_s.ep.rosidl_typesupport_introspection_c.c
+[6.193s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/_action_tutorials_s.ep.rosidl_typesupport_c.c
+[6.194s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/_action_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.194s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.197s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/libaction_tutorials__rosidl_generator_py.so
+[6.200s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.202s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/action
+[6.205s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/action/_fibonacci_s.c
+[6.207s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/action/_fibonacci.py
+[6.208s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/action/__init__.py
+[6.209s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/__init__.py
+[6.283s] Listing '/home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials'...
+[6.284s] Listing '/home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/action'...
+[6.310s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.312s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.315s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/local/lib/python3.10/dist-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.318s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/lib/libaction_tutorials__rosidl_generator_py.so
+[6.319s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/action/Fibonacci.idl
+[6.321s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/action/Fibonacci.action
+[6.322s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/ament_index/resource_index/package_run_dependencies/action_tutorials
+[6.323s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/ament_index/resource_index/parent_prefix_path/action_tutorials
+[6.327s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.sh
+[6.328s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.dsv
+[6.328s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/environment/path.sh
+[6.329s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/environment/path.dsv
+[6.330s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/local_setup.bash
+[6.331s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/local_setup.sh
+[6.331s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/local_setup.zsh
+[6.332s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/local_setup.dsv
+[6.335s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/package.dsv
+[6.338s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/ament_index/resource_index/packages/action_tutorials
+[6.339s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/export_action_tutorials__rosidl_generator_cExport.cmake
+[6.343s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/export_action_tutorials__rosidl_generator_cExport-noconfig.cmake
+[6.344s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/export_action_tutorials__rosidl_typesupport_fastrtps_cExport.cmake
+[6.344s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/export_action_tutorials__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.346s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cExport.cmake
+[6.347s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.348s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cExport.cmake
+[6.349s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cExport-noconfig.cmake
+[6.350s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/export_action_tutorials__rosidl_generator_cppExport.cmake
+[6.350s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/export_action_tutorials__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.351s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/export_action_tutorials__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.352s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cppExport.cmake
+[6.353s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.356s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cppExport.cmake
+[6.357s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/action_tutorials__rosidl_typesupport_cppExport-noconfig.cmake
+[6.358s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/export_action_tutorials__rosidl_generator_pyExport.cmake
+[6.360s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/export_action_tutorials__rosidl_generator_pyExport-noconfig.cmake
+[6.362s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/rosidl_cmake-extras.cmake
+[6.363s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.363s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.364s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_libraries-extras.cmake
+[6.365s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_targets-extras.cmake
+[6.366s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.366s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.367s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig.cmake
+[6.368s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig-version.cmake
+[6.368s] -- Up-to-date: /home/tcr3/ros2_personal/install/action_tutorials/share/action_tutorials/package.xml

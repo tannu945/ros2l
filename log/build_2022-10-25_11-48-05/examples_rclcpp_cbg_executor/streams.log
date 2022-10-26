@@ -1,0 +1,30 @@
+[0.134s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[0.682s] [ 30%] Built target ping
+[0.699s] [ 70%] Built target ping_pong
+[0.734s] [100%] Built target pong
+[0.860s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[1.594s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor
+[1.663s] -- Install configuration: ""
+[1.678s] -- Execute custom install script
+[1.680s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[1.681s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[1.682s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[1.702s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[1.712s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[1.714s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[1.716s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[1.725s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[1.726s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[1.728s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[1.729s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[1.731s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[1.732s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[1.734s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[1.742s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[1.746s] -- Symlinking: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[1.802s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[1.804s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.806s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[1.808s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[1.812s] -- Up-to-date symlink: /home/tcr3/ros2_personal/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[1.830s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_cbg_executor

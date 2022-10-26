@@ -1,0 +1,4 @@
+Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_publisher
+Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_publisher

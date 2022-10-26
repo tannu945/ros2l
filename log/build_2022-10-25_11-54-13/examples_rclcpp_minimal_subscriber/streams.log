@@ -1,0 +1,43 @@
+[0.082s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[0.507s] [  8%] Built target subscriber_lambda
+[0.532s] [ 16%] Built target subscriber_member_function
+[0.554s] [ 25%] Built target subscriber_member_function_with_topic_statistics
+[0.589s] [ 33%] Built target subscriber_member_function_with_type_adapter
+[0.784s] [ 41%] Built target subscriber_content_filtering
+[0.798s] [ 50%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[0.821s] [ 58%] Built target subscriber_not_composable
+[0.842s] [ 75%] Built target wait_set_subscriber_library
+[1.059s] [ 83%] Built target wait_set_subscriber
+[1.095s] [ 91%] Built target time_triggered_wait_set_subscriber
+[1.098s] [100%] Built target static_wait_set_subscriber
+[1.169s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[2.064s] Invoking command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_subscriber
+[2.103s] -- Install configuration: ""
+[2.111s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[2.120s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[2.135s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[2.146s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[2.161s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[2.173s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[2.181s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[2.197s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[2.205s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[2.216s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[2.231s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[2.234s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[2.234s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[2.235s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[2.237s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[2.241s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[2.244s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[2.253s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[2.256s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[2.257s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[2.258s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[2.259s] -- Installing: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[2.266s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[2.270s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[2.271s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[2.272s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[2.273s] -- Up-to-date: /home/tcr3/ros2_personal/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[2.307s] Invoked command in '/home/tcr3/ros2_personal/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tcr3/ros2_personal/build/examples_rclcpp_minimal_subscriber
