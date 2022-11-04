@@ -1,0 +1,25 @@
+version: "3"
+services:
+  z_get:
+    image: docker_z_get.py
+    build:
+      context: ./z_get
+      dockerfile: Dockerfile
+
+  z_put:
+    image: docker_z_put.py
+    build:
+      context: ./z_put
+      dockerfile: Dockerfile
+
+  z_pub:
+    image: docker_z_pub.py
+    build:
+      context: ./z_pub
+      dockerfile: Dockerfile
+
+  z_storage:
+    image: docker_z_storage.py
+    build:
+      context: ./z_storage
+      dockerfile: Dockerfile
